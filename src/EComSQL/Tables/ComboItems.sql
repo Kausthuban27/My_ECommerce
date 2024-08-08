@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[ComboItems]
+(
+	[Id] INT NOT NULL IDENTITY,
+	[ComboName] NVARCHAR(255) FOREIGN KEY REFERENCES Combo(ComboName) NOT NULL,
+	[foodName] NVARCHAR(255) FOREIGN KEY REFERENCES FoodItems(foodName) NOT NULL,
+	[Quantity] INT NOT NULL
+)

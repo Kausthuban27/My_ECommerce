@@ -1,0 +1,7 @@
+﻿CREATE TABLE [dbo].[Combo]
+(
+	[Id] INT NOT NULL IDENTITY,
+	[ComboName] NVARCHAR(255) NOT NULL PRIMARY KEY,
+	[ComboDescription] NVARCHAR(MAX) NOT NULL,
+	[ComboPrice] DECIMAL(10, 2) NOT NULL
+)

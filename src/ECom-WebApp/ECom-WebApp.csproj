@@ -8,4 +8,9 @@
     <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BlazorStrap" Version="5.2.100.61524" />
+    <PackageReference Include="BlazorStrap.V5" Version="5.2.100" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[Admin]
+(
+	[Id] INT NOT NULL IDENTITY, 
+    [firstname] NVARCHAR(MAX) NOT NULL,
+	[lastname] NVARCHAR(MAX) NOT NULL,
+	[email] NVARCHAR(MAX) NOT NULL,
+	[username] NVARCHAR(50) NOT NULL PRIMARY KEY,
+	[password] NVARCHAR(20) NOT NULL
+)

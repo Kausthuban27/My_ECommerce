@@ -1,0 +1,9 @@
+﻿CREATE TABLE [dbo].[FoodItems]
+(
+	[Id] INT NOT NULL IDENTITY,
+	[foodName] NVARCHAR(255) NOT NULL PRIMARY KEY,
+	[Cuisine] NVARCHAR(MAX) NOT NULL,
+	[Quantity] INT NOT NULL,
+	[price] DECIMAL(10, 2) NOT NULL,
+	[isCombo] BIT NOT NULL DEFAULT 0
+)
